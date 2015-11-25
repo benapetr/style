@@ -8,20 +8,24 @@ C++
 * function local, unique: suffixed_with_
 
 ```
-class Foo
-     public:
-         Foo();
-         
-         void PublicFunction(int some_parameter)
-         {
-             // Never ident with tabs just 4 spaces
-             return;
-         }
-         
-     private:
-         foo()
-         {
-             
-         }
-
+namespace MyProgram
+{
+     class Foo
+     {
+          public:
+              Foo();
+              
+              void PublicFunction(int some_parameter)
+              {
+                  // Never ident with tabs just 4 spaces
+                  return;
+              }
+              
+          private:
+              foo()
+              {
+                  
+              }
+     }
+}
 ```
