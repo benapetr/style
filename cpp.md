@@ -1,11 +1,22 @@
 C++
 ===============
 
-* public functions: UpperFirst
-* private functions: lowerFirst
-* function local / parameters: no_casing
+This is a programming style that I use across most of my personal projects and projects that I launched. It's highly inspired by style used by Visual Studio in years 2000 - 2010, with my own improvements.
+
+This style prefers functionality over "cuteness". It may appear ugly to some, but I guarantee that once you get used to it, navigating through the code will be extremely simple as the code is very clear and concise.
+
+The idea is to make readability as simple as possible, so that when you look at certain block of code, it's already absolutely clear to you which scopes each variables have just from their name and you don't need to navigate through the code just to find that out.
+
+## Variable and function names (by scope)
+* class public: UpperFirst (VariableName)
+* class private and protected: lowerFirst (variableName)
+* function scope: no_casing_underscored_used_to_separate (variable_name)
 * serializable type: _prefixedWithUnderscore
 * function local, unique: suffixed_with_
+
+## Curly bracket alignment
+
+Brackets are always vertically aligned, so that it's absolutely clear where bracket block starts and where it ends, just by looking at it. 
 
 ```
 namespace MyProgram
@@ -28,4 +39,11 @@ namespace MyProgram
               }
      }
 }
+```
+
+In code that doesn't require block of curly brackets (such as if with only one code line) they can be ommited to save space.
+
+```
+if (something)
+    DoSomething();
 ```
