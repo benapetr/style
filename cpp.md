@@ -11,6 +11,7 @@ The idea is to make readability as simple as possible, so that when you look at 
 * class public: UpperFirst (VariableName)
 * class private and protected: lowerFirst (variableName)
 * function scope: no_casing_underscored_used_to_separate (variable_name)
+* global scope (#defined): UPPERCASE_ONLY (VARIABLE_NAME)
 * serializable type: _prefixedWithUnderscore
 * function local, unique: suffixed_with_
 
