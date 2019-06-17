@@ -47,3 +47,14 @@ In code that doesn't require block of curly brackets (such as if with only one c
 if (something)
     DoSomething();
 ```
+
+## Usage of this
+
+It's used everywhere if possible, to make it clear that variables or functions that you work with are in scope of current class instance and also because when you type this-> and autocompletion mechanism is typically trigerred and allow you to easily pick whatever you want to use, which is very practical.
+
+```
+void Class::SetN(int some_n)
+{
+    this->n = some_n;
+}
+```
