@@ -1,11 +1,11 @@
-C++
+C++ and C#
 ===============
 
 This is a programming style that I use across most of my personal projects and projects that I launched. It's highly inspired by style used by Visual Studio in years 2000 - 2010, with my own improvements.
 
-This style prefers functionality over "cuteness". It may appear ugly to some, but I guarantee that once you get used to it, navigating through the code will be extremely simple as the code is very clear and concise.
+This style prefers function over form. It may appear ugly to some, but I guarantee, that once you get used to it, navigating through the code will be extremely simple as the code is very clear and concise.
 
-The idea is to make readability as simple as possible, so that when you look at certain block of code, it's already absolutely clear to you which scopes each variables have just from their name and you don't need to navigate through the code just to find that out.
+The idea is to make readability as simple as possible, so that when you look at certain line or block of code, it's already absolutely clear to you which scopes each variables have and what purpose they serve, just from their name and you don't need to navigate through the code to find that out.
 
 ## Variable and function names (by scope)
 * class public: UpperFirst (VariableName)
